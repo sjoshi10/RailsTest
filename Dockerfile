@@ -1,6 +1,7 @@
 FROM ruby:2.2
 
 RUN apt-get update -y && \
+  nodejs \
   apt-get install -y \
   sqlite3 
 
