@@ -1,8 +1,8 @@
 FROM ruby:2.2
 
 RUN apt-get update -y && \
-  nodejs \
   apt-get install -y \
+  nodejs \
   sqlite3 
 
 RUN mkdir -p /usr/src/app
